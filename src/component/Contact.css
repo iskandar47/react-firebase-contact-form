@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto;
+    width: 500px;
+}
+@media screen and (max-width: 560px) {
+    .form {
+        width: 80%;
+        margin: 32px auto;
+    }
+}
+.form input, .form textarea  {
+    height: 42px;
+    padding: 4px 8px;
+    margin: 0 0 16px;
+    font-size: 16px;
+}
+.form textarea {
+    height: 72px;
+}
+.form label {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.form button {
+    height: 48px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: rgb(42, 42, 247);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: rgb(7, 7, 154);
+}

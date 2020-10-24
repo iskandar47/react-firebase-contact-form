@@ -1,0 +1,2 @@
+*{font-family:Arial,Helvetica,sans-serif}.form{display:flex;flex-direction:column;margin:64px auto;width:500px}@media screen and (max-width:560px){.form{width:80%;margin:32px auto}}.form input,.form textarea{height:42px;padding:4px 8px;margin:0 0 16px;font-size:16px}.form textarea{height:72px}.form label{font-weight:600;margin-bottom:4px}.form button{height:48px;font-weight:700;color:#fff;background-color:#2a2af7;border:none;font-size:16px;cursor:pointer}.form button:hover{background-color:#07079a}
+/*# sourceMappingURL=main.510ac283.chunk.css.map */
